@@ -1,0 +1,383 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- ADD META TAGS -->
+      <meta charset="utf-8"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"></meta>
+      <meta http-equiv="x-ua-compatible" content="ie=edge"></meta>
+      <meta name="keywords" content="PyLadies, PyLady, kurz, sraz, programování, IT, python, workshop, slečny, ženy"></meta>
+      <meta name="description" content="PyLadies jsou (mezinárodní) aktivita, která se snaží přiblížit IT ženám a ženy k IT. K tomu využívá programovací jazyk Python, který je perfektní pro výukové účely a zároveň je po něm velká poptávka na trhu práce. Více o začátečnických kurzech v Brně, Praze a Ostravě zjistíš na www.pyladies.cz"></meta>
+      <meta property="og:title" content="PyLadies CZ"></meta>
+      <meta property="og:type" content="article"></meta>
+      <meta property="og:url" content="www.pyladies.cz"></meta>
+      <meta property="og:description" content="PyLadies jsou (mezinárodní) aktivita, která se snaží přiblížit IT ženám a ženy k IT. K tomu využívá programovací jazyk Python, který je perfektní pro výukové účely a zároveň je po něm velká poptávka na trhu práce. Více o začátečnických kurzech v Brně, Praze a Ostravě zjistíš na www.pyladies.cz"></meta>
+      <meta name="twitter:card" content="summary"></meta>
+      <meta name="twitter:title" content="PyLadies CZ"></meta>
+      <meta name="twitter:site" content="@PyLadiesCZ"></meta>
+      <meta name="twitter:description" content="PyLadies jsou (mezinárodní) aktivita, která se snaží přiblížit IT ženám a ženy k IT. K tomu využívá programovací jazyk Python, který je perfektní pro výukové účely a zároveň je po něm velká poptávka na trhu práce. Více o začátečnických kurzech v Brně, Praze a Ostravě zjistíš na www.pyladies.cz"></meta>
+
+      <title>PyLadies CZ</title>
+
+      
+        <!-- Bootstrap CSS -->
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="/static/css/custom.css" rel="stylesheet">
+        <link href="/static/css/responsive.css" rel="stylesheet">
+        <!-- Custom Fonts -->
+        <link href="/static/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700&subset=latin,greek,greek-ext,vietnamese,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      
+      <!-- Favicon -->
+      <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico" />
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <!-- Zeerat tracking code for pyladies.cz -->
+    	<script>
+    		(function(t,r,a,c,k,i,n,g){
+    			t[k]=t[k]||{t:1*new Date(),k:i};
+    			n=r.createElement(a),g=r.getElementsByTagName(a)[0];
+    			n.async=1;n.src=c;g.parentNode.insertBefore(n,g)
+    		})(window,document,'script','//cdn.zeerat.com/track.js','Zeerat','R3c4yUSA');
+    	</script>
+    <!-- End Zeerat code -->
+    </head>
+
+    <body id="page-top" data-spy="scroll" data-target="">
+      <!-- Navigation -->
+      <nav class="navbar navbar-custom" role="navigation">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                      <i class="fa fa-bars"></i>
+                  </button>
+                  <a class="navbar-brand page-scroll" href="/">
+                      <img class="logo-i" src="/static/img/pyladies.png" />
+                  </a>
+              </div>
+              <div class="navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kurzy
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                              <li><a href="/brno_course/">Brno</a></li>
+                              <li><a href="/praha_course/">Praha</a></li>
+                              <li><a href="/ostrava_course/">Ostrava</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Materiály
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/brno/">Brno</a></li>
+                            <li><a href="/praha/">Praha</a></li>
+                            <li><a href="/ostrava/">Ostrava</a></li>
+                           <!-- <li role="separator" class="divider"></li>
+                            <li><a href="#">Všechny</a></li> -->
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">O nás
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                              <li><a href="/brno_info/">Brno</a></li>
+                              <li><a href="/praha_info/">Praha</a></li>
+                              <li><a href="/ostrava_info/">Ostrava</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="join">
+                      <a href="/stan_se/">Staň se PyLady!</a>
+                    </li>
+                    <li class="join">
+                      <a href="/faq/">FAQ</a>
+                    </li>
+                    <li>
+                      <a href="mailto:info@pyladies.cz">Napiš nám</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+  <!-- Intro Header -->
+  <header class="intro-info intro-city-brno">
+      <div class="intro-body">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
+                      <p class="intro-text-city">BRNO</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+
+      <!-- About city section -->
+      <section class="info-city container text-center">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+                <h2 class="course-city-heading">Jak to v Brně vzniklo?</h2>
+                <p class="course-city-p">Bylo nebylo, přijela jednou do Brna na návštěvu Lynn Root, která vede PyLadies v San Franciscu. Zrovna probíhala konference RuPy 2012, a v rámci ní Lynn uspořádala půldenní workshop pod hlavičkou PyLadies. Ale potom odjela, než našla dostatečně akční Pythonistku, která by to po ní převzala.</p>
+            </div>
+            <div class="photo-box">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 city-box">
+                    <img src="/static/img/brno/brno1.jpg" class="img-responsive city-image" />
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 city-box">
+                    <img src="/static/img/brno/brno2.jpg" class="img-responsive city-image" />
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 city-box">
+                    <img src="/static/img/brno/brno3.jpg" class="img-responsive city-image" />
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+                <p class="course-city-p">Až po více než roce se na Facebooku ozvaly tři studentky, které se Python učily na škole a potřebovaly doučování. Vzpomněli jsme si na balíček samolepek PyLadies, co tu nechala Lynn, a rozhodli se to doučování udělat pod touto značkou. A odtud byl už jen krůček k začátečnickým kurzům i jiným srazům.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team section -->
+    <section id="team" class="container content-section text-center">
+      <h2 class="course-city-heading">Tým brněnských PyLadies</h2>
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/martina.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Martina Antalovová</strong></h5>
+        <span><em>Hlavní organizátorka/Koučka</em></span>
+        <ul class="list-inline"><li><a href="mailto:antalovova@gmail.com"><img src="/static/img/icon/mail-link.png" /></a></li><li><a href="https://www.linkedin.com/in/martina-ant"><img src="/static/img/icon/linkedin-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/roman.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Roman Blanco</strong></h5>
+        <span><em>Kouč</em></span>
+        <ul class="list-inline"><li><a href="https://github.com/romanblanco"><img src="/static/img/icon/github-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/pavel.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Pavel Dedík</strong></h5>
+        <span><em>Kouč</em></span>
+        <ul class="list-inline"><li><a href="mailto:dedikx@gmail.com"><img src="/static/img/icon/mail-link.png" /></a></li><li><a href="https://github.com/paveldedik"><img src="/static/img/icon/github-link.png" /></a></li><li><a href="http://paveldedik.com"><img src="/static/img/icon/website-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/jana.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Jana Fedrová</strong></h5>
+        <span><em>Koučka</em></span>
+        <ul class="list-inline"><li><a href="mailto:jana@fedra.cz"><img src="/static/img/icon/mail-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/anna.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Anna Haymannová</strong></h5>
+        <span><em>Koučka</em></span>
+        <ul class="list-inline"><li><a href="mailto:haymannovaa@gmail.com"><img src="/static/img/icon/mail-link.png" /></a></li><li><a href="https://www.linkedin.com/in/anna-haymannov%C3%A1-157693a8/"><img src="/static/img/icon/linkedin-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/jarka.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Jarmila Hladká</strong></h5>
+        <span><em>Koučka/Organizátorka</em></span>
+        <ul class="list-inline"><li><a href="mailto:jarka.repakova@centrum.cz"><img src="/static/img/icon/mail-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/honza.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Jenda Král</strong></h5>
+        <span><em>Kouč</em></span>
+        <ul class="list-inline"><li><a href="mailto:jenda.kraluj@gmail.com"><img src="/static/img/icon/mail-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/dominika.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Dominika Krejčí</strong></h5>
+        <span><em>Koučka</em></span>
+        <ul class="list-inline"><li><a href="https://github.com/Krejdom"><img src="/static/img/icon/github-link.png" /></a></li><li><a href="https://cz.linkedin.com/in/dominika-krej%C4%8D%C3%AD-9779759b"><img src="/static/img/icon/linkedin-link.png" /></a></li><li><a href="http://krejdom.cz/"><img src="/static/img/icon/website-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/blanka.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Blanka Kubešová</strong></h5>
+        <span><em>Koučka</em></span>
+        <ul class="list-inline"><li><a href="mailto:kubesovablanka@gmail.com"><img src="/static/img/icon/mail-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/zuzana.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Zuzana Piskořová</strong></h5>
+        <span><em>Koučka/Organizátorka</em></span>
+        <ul class="list-inline"><li><a href="mailto:zuzanapiskorova@gmail.com"><img src="/static/img/icon/mail-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/michal.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Michal Polovka</strong></h5>
+        <span><em>Kouč</em></span>
+        <ul class="list-inline"><li><a href="https://www.linkedin.com/in/michal-polovka/"><img src="/static/img/icon/linkedin-link.png" /></a></li><li><a href="https://github.com/miskopo"><img src="/static/img/icon/github-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/manka.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Manka Stará</strong></h5>
+        <span><em>Koučka</em></span>
+        <ul class="list-inline"><li><a href="mailto:manka.py@gmail.com"><img src="/static/img/icon/mail-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/ivana.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Ivana Trnková</strong></h5>
+        <span><em>Koučka</em></span>
+        <ul class="list-inline"><li><a href="mailto:ivanaxtrnkova@gmail.com"><img src="/static/img/icon/mail-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/praha/team/peterv.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Petr Viktorin</strong></h5>
+        <span><em>Hlavní kouč</em></span>
+        <ul class="list-inline"><li><a href="http://encukou.cz"><img src="/static/img/icon/website-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/jakub.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Jakub Vorel</strong></h5>
+        <span><em>Kouč</em></span>
+        <ul class="list-inline"><li><a href="mailto:vorelq@gmail.com"><img src="/static/img/icon/mail-link.png" /></a></li></ul>
+      </div>
+
+
+      
+      <div class="member-box col-md-3 col-sm-4 col-xs-12">
+        <img src="/static/img/brno/team/jiri.jpg" class="img-circle img-responsive" />
+        <h5 class="member-name text-center"><strong>Jiří Zapletal</strong></h5>
+        <span><em>Hlavní kouč</em></span>
+        <ul class="list-inline"><li><a href="mailto:yaplik@gmail.com"><img src="/static/img/icon/mail-link.png" /></a></li></ul>
+      </div>
+
+
+  </section>
+
+    <!-- Advice section -->
+    <section id="about3" class="container-fluid content-section text-center">
+      <div class="row">
+        <h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 start-title2">Potřebuješ poradit?</h2>
+        
+    <a href="https://www.facebook.com/groups/pyladiesBrno">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 about">
+            <img height="110" src="/static/img/link/facebook.png" />
+            <h4 class="about-title">Facebook PyLadies Brno</h4>
+        </div>
+    </a>
+
+        
+    <a href="https://groups.google.com/forum/#!forum/pyladies-brno">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 about">
+            <img height="110" src="/static/img/link/google-group.png" />
+            <h4 class="about-title">Google Group PyLadies Brno</h4>
+        </div>
+    </a>
+
+        
+    <a href="mailto:encukou@gmail.com">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 about">
+            <img height="110" src="/static/img/link/coach.png" />
+            <h4 class="about-title">Napiš koučovi</h4>
+        </div>
+    </a>
+
+      </div>
+    </section>
+
+    
+    <footer>
+        <div class="container text-left">
+            <p class="pull-left copy">
+              PyLadies CZ jsou součástí <a href="http://pyladies.com">mezinárodních PyLadies</a>.
+            </p>
+            <ul class="pull-right list-inline">
+                <li>
+                    <a href="https://twitter.com/pyladiescz">
+                        <img class="social" src="/static/img/icon/twitter.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/pyladiescz">
+                        <img class="social" src="/static/img/icon/github.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/groups/pyonieri/">
+                        <img class="social" src="/static/img/icon/facebook.png" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+    
+        <!-- jQuery -->
+        <script src="/static/js/jquery.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="/static/js/bootstrap.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="/static/js/jquery.easing.min.js"></script>
+        <!-- Custom JavaScript -->
+        <script src="/static/js/custom.js"></script>
+    
+</body>
+</html>
